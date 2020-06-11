@@ -20,4 +20,4 @@ jobs:
       - name: Install Azure Spring Cloud extension
         run: az extension add -y --name spring-cloud
       - name: Deploy to Azure Spring Cloud
-        run: az spring-cloud app deploy --resource-group ggulden-spring-cloud-lab --service ggulden-azure-spring-cloud-lab --name weather-service --jar-path target/demo-0.0.1-SNAPSHOT.jar
+        run: az spring-cloud app deploy --resource-group ggulden-spring-cloud-lab --service ggulden-azure-spring-cloud-lab --name weather-service --jar-path 07-build-a-spring-boot-microservice-using-mysql/weather-service/target/demo-0.0.1-SNAPSHOT.jar
