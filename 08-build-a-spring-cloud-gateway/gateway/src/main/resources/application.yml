@@ -5,7 +5,7 @@ spring:
         locator:
           enabled: true
       globalcors:
-        corsConfigurations:
+        cors-configurations:
           '[/**]':
             allowedOrigins: "*"
             allowedMethods:
