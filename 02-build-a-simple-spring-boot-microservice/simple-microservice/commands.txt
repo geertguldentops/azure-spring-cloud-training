@@ -1,0 +1,9 @@
+1.
+
+AZ_RESOURCE_GROUP=ggulden-spring-cloud-lab
+AZ_SPRING_CLOUD_NAME=ggulden-azure-spring-cloud-lab
+
+az appservice plan create -g "$AZ_RESOURCE_GROUP" -n "$AZ_SPRING_CLOUD_NAME"
+az spring-cloud create -g "$AZ_RESOURCE_GROUP" -n "$AZ_SPRING_CLOUD_NAME"
+
+Does not work -> created in Azure the web app/website
